@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+</head>
+
+<body>
+
+<div class="hearts"></div>
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop>
+    <!-- Ganti nanti dengan file MP3 milikmu -->
+    <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+<!-- PAGE 1 -->
+<section class="page active" id="page1">
+
+    <h1>♡ Hi, My Love ♡</h1>
+
+    <p>
+        You should have received my package by now.
+        <br><br>
+
+        But wait!!
+        Don't open everything all at once...
+        Let's make this a little adventure.
+        <br><br>
+
+        First, pick the <b>smallest gift</b>.
+        Open it first.
+        <br><br>
+
+        Once you've opened it,
+        press the button below.
+    </p>
+
+    <button onclick="nextPage(2)">
+        I Opened It! ✨
+    </button>
+
+</section>
+
+<!-- PAGE 2 -->
+<section class="page" id="page2">
+
+    <h1>☕ Yay!!</h1>
+
+    <p>
+
+        Congratulations!!
+        You got the mug!
+        <br><br>
+
+        This isn't just an ordinary mug.
+        It's like a tiny tumbler that keeps your drinks hot or cold for hours.
+        <br><br>
+
+        Hopefully this means fewer late-night trips downstairs whenever you're thirsty.
+        <br><br>
+
+        And every time you use it...
+        I hope it reminds you of me.
+        Even if it's just for a little moment. ♡
+
+    </p>
+
+    <button onclick="nextPage(3)">
+        Next Gift 🎁
+    </button>
+
+</section>
+
+<!-- PAGE 3 -->
+<section class="page" id="page3">
+
+    <h1>🎉 HORRAAAY!! 🎉</h1>
+
+    <p>
+
+        Now it's time for the bigger box!
+        <br><br>
+
+        Open it...
+        <br><br>
+
+        Surprise!!
+        It's Little Pony!! 🦄💕
+
+        <br><br>
+
+        I'm soooo excited to know
+        which one you got!
+
+        <br><br>
+
+        Please tell me afterwards,
+        and don't forget to record your reaction.
+
+        I really, really want to see it. ♡
+
+    </p>
+
+    <button onclick="nextPage(4)">
+        One Last Thing 💌
+    </button>
+
+</section>
+
+<!-- PAGE 4 -->
+<section class="page" id="page4">
+
+    <h1>♡ Thank You ♡</h1>
+
+    <p>
+
+        That's everything.
+
+        <br><br>
+
+        They may just be little gifts,
+        but each one was chosen
+        while thinking about you.
+
+        <br><br>
+
+        I hope they make you smile.
+
+        <br><br>
+
+        Thank you for always being by my side.
+
+        <br><br>
+
+        I love you so, so much.
+
+        <br><br>
+
+        Happy opening, my love. ❤️
+
+    </p>
+
+    <button onclick="finishLove()">
+        Finish ♡
+    </button>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
